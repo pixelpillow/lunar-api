@@ -52,6 +52,8 @@ class ProductVariantSchema extends Schema
 
             Str::make('purchasable'),
 
+            Str::make('sku'),
+
             AttributeData::make('attribute_data')
                 ->groupAttributes(),
 
