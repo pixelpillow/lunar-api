@@ -35,6 +35,7 @@ class CartSchema extends Schema
         return [
             'cart_lines',
             'cart_lines.purchasable',
+            'cart_lines.purchasable.images',
             'cart_lines.purchasable.prices',
             'cart_lines.purchasable.product',
             'cart_lines.purchasable.values',
